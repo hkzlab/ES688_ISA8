@@ -2125,17 +2125,6 @@ F 3 "~" H 8550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RN?
-U 1 1 62B3E5FB
-P 9600 5150
-F 0 "RN?" H 9988 5196 50  0000 L CNN
-F 1 "10k" H 9988 5105 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 10075 5150 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9600 5150 50  0001 C CNN
-	1    9600 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 62B43AAC
 P 9000 5050
@@ -2280,8 +2269,6 @@ Wire Wire Line
 Connection ~ 9700 6200
 Wire Wire Line
 	9700 6200 9000 6200
-NoConn ~ 9800 5350
-NoConn ~ 9900 5350
 $Comp
 L power:VCC #PWR?
 U 1 1 633496DE
@@ -3192,4 +3179,15 @@ $EndComp
 Wire Wire Line
 	13850 850  13850 1000
 Connection ~ 13850 1000
+$Comp
+L Device:R_Network06 RN?
+U 1 1 674F16B7
+P 9500 5150
+F 0 "RN?" H 9788 5196 50  0000 L CNN
+F 1 "R_Network06" H 9788 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 9875 5150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9500 5150 50  0001 C CNN
+	1    9500 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
