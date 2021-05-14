@@ -1643,8 +1643,6 @@ Wire Wire Line
 	15350 3000 15350 3200
 Wire Wire Line
 	15350 3200 15450 3200
-Text Label 13300 1850 0    50   ~ 0
-VDDA
 Wire Wire Line
 	14600 5650 15150 5650
 Text Label 19150 1700 0    50   ~ 0
@@ -3180,4 +3178,18 @@ Wire Wire Line
 Connection ~ 11500 14950
 Wire Wire Line
 	11500 14950 11600 14950
+$Comp
+L power:VDDA #PWR?
+U 1 1 674869CE
+P 13850 850
+F 0 "#PWR?" H 13850 700 50  0001 C CNN
+F 1 "VDDA" H 13865 1023 50  0000 C CNN
+F 2 "" H 13850 850 50  0001 C CNN
+F 3 "" H 13850 850 50  0001 C CNN
+	1    13850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 850  13850 1000
+Connection ~ 13850 1000
 $EndSCHEMATC
