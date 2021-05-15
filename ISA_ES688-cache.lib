@@ -677,11 +677,11 @@ X A3 99 -600 1100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# custom_components_LN3403
+# custom_components_LM3403
 #
-DEF custom_components_LN3403 U 0 40 Y Y 5 F N
+DEF custom_components_LM3403 U 0 40 Y Y 5 F N
 F0 "U" -150 300 50 H V C CNN
-F1 "custom_components_LN3403" 350 -250 50 H V C CNN
+F1 "custom_components_LM3403" 350 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
