@@ -1650,23 +1650,23 @@ Filtered_12V
 NoConn ~ 3700 7350
 NoConn ~ 2300 8550
 $Comp
-L 74xx:74LS245 U?
+L 74xx:74LS245 U4
 U 1 1 60CF4739
 P 10200 2300
-F 0 "U?" H 9950 2950 50  0000 C CNN
+F 0 "U4" H 9950 2950 50  0000 C CNN
 F 1 "74LS245" H 10450 2950 50  0000 C CNN
-F 2 "" H 10200 2300 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 10200 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10200 2300 50  0001 C CNN
 	1    10200 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS244 U?
+L 74xx:74LS244 U5
 U 1 1 60CF5E2D
 P 8400 12300
-F 0 "U?" H 8150 12950 50  0000 C CNN
+F 0 "U5" H 8150 12950 50  0000 C CNN
 F 1 "74LS244" H 8600 12950 50  0000 C CNN
-F 2 "" H 8400 12300 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 8400 12300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 8400 12300 50  0001 C CNN
 	1    8400 12300
 	-1   0    0    -1  
@@ -1844,10 +1844,10 @@ F 3 "" H 12000 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom_components:ES688F U?
+L custom_components:ES688F U3
 U 1 1 60CF110B
 P 12000 4400
-F 0 "U?" H 11550 7300 50  0000 C CNN
+F 0 "U3" H 11550 7300 50  0000 C CNN
 F 1 "ES688F" H 12500 7300 50  0000 C CNN
 F 2 "Package_QFP:LQFP-14x20mm_P0.5mm" H 12000 5350 50  0001 C CNN
 F 3 "" H 12000 5350 50  0001 C CNN
@@ -2074,12 +2074,12 @@ Wire Wire Line
 Wire Wire Line
 	11400 5350 10900 5350
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J?
+L Connector_Generic:Conn_02x02_Odd_Even J4
 U 1 1 62AED216
 P 8550 5500
-F 0 "J?" H 8600 5717 50  0000 C CNN
+F 0 "J4" H 8600 5717 50  0000 C CNN
 F 1 "Interrupt Select" H 8600 5626 50  0000 C CNN
-F 2 "" H 8550 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8550 5500 50  0001 C CNN
 F 3 "~" H 8550 5500 50  0001 C CNN
 	1    8550 5500
 	1    0    0    -1  
@@ -2102,23 +2102,23 @@ Wire Wire Line
 Wire Wire Line
 	9000 4850 9000 5050
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J?
+L Connector_Generic:Conn_02x02_Odd_Even J5
 U 1 1 62BE0014
 P 8550 5950
-F 0 "J?" H 8600 6167 50  0000 C CNN
+F 0 "J5" H 8600 6167 50  0000 C CNN
 F 1 "Address Select" H 8600 6076 50  0000 C CNN
-F 2 "" H 8550 5950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8550 5950 50  0001 C CNN
 F 3 "~" H 8550 5950 50  0001 C CNN
 	1    8550 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J?
+L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 62BE0F99
 P 8550 6400
-F 0 "J?" H 8600 6617 50  0000 C CNN
+F 0 "J6" H 8600 6617 50  0000 C CNN
 F 1 "DMA Select" H 8600 6526 50  0000 C CNN
-F 2 "" H 8550 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8550 6400 50  0001 C CNN
 F 3 "~" H 8550 6400 50  0001 C CNN
 	1    8550 6400
 	1    0    0    -1  
@@ -3140,10 +3140,10 @@ Wire Wire Line
 	13850 850  13850 1000
 Connection ~ 13850 1000
 $Comp
-L Device:R_Network06 RN?
+L Device:R_Network06 RN1
 U 1 1 674F16B7
 P 9500 5150
-F 0 "RN?" H 9788 5196 50  0000 L CNN
+F 0 "RN1" H 9788 5196 50  0000 L CNN
 F 1 "R_Network06" H 9788 5105 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP7" V 9875 5150 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9500 5150 50  0001 C CNN
@@ -3643,12 +3643,12 @@ Wire Wire Line
 	20900 10250 21350 10250
 Connection ~ 20900 10250
 $Comp
-L Jumper:Jumper_3_Open JP?
+L Jumper:Jumper_3_Open JP1
 U 1 1 62275D16
 P 9750 6750
-F 0 "JP?" V 9796 6837 50  0000 L CNN
+F 0 "JP1" V 9796 6837 50  0000 L CNN
 F 1 "Emulation Mode" V 9705 6837 50  0000 L CNN
-F 2 "" H 9750 6750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9750 6750 50  0001 C CNN
 F 3 "~" H 9750 6750 50  0001 C CNN
 	1    9750 6750
 	0    -1   -1   0   
@@ -3889,7 +3889,7 @@ U 1 1 6344D1A6
 P 17400 4250
 F 0 "RV1" V 17950 4450 50  0000 R CNN
 F 1 "Volume Knob" V 17850 4750 50  0000 R CNN
-F 2 "" H 17650 4175 50  0001 C CNN
+F 2 "Volume_Pot:PTD902" H 17650 4175 50  0001 C CNN
 F 3 "~" H 17650 4175 50  0001 C CNN
 	1    17400 4250
 	0    1    -1   0   
