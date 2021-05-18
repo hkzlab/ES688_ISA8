@@ -6449,7 +6449,7 @@
   (gr_text "Rev 1.0" (at 230.124 193.294) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "ES688F + OPL3\nISA8 Audio Card\nby Hkz" (at 279.4 142.494) (layer F.SilkS)
+  (gr_text "ES688F + OPL3\nISA8 Sound Card\nby Hkz" (at 279.4 142.494) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "J2: Interrupt Select\n0 0 - IRQ9\n0 1 - IRQ5\n1 0 - IRQ7\n1 1 - IRQ3\n\nJ3: Address Select\n0 0 - 0x220\n0 1 - 0x230\n1 0 - 0x240\n1 1 - 0x250\n\nJ4: DMA Select\n0 0 - None\n0 1 - DMA2\n1 0 - DMA1\n1 1 - DMA3" (at 213.106 171.45) (layer F.SilkS)
