@@ -1645,7 +1645,7 @@ U 1 1 61118C7C
 P 15650 3300
 F 0 "J7" H 15622 3182 50  0000 R CNN
 F 1 "MIC" H 15622 3273 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 15650 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 15650 3300 50  0001 C CNN
 F 3 "~" H 15650 3300 50  0001 C CNN
 	1    15650 3300
 	-1   0    0    1   
