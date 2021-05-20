@@ -665,12 +665,6 @@ Wire Wire Line
 	10400 7000 10400 7100
 Wire Wire Line
 	10500 7000 10400 7000
-Connection ~ 10850 7200
-Wire Wire Line
-	10850 7200 10700 7200
-Connection ~ 10850 7000
-Wire Wire Line
-	10850 7000 10700 7000
 $Comp
 L Device:C_Small C12
 U 1 1 60E3A66F
@@ -692,17 +686,6 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10600 7000 50 
 F 3 "~" H 10600 7000 50  0001 C CNN
 	1    10600 7000
 	0    -1   1    0   
-$EndComp
-$Comp
-L Device:Crystal_Small Y1
-U 1 1 60E0615D
-P 10850 7100
-F 0 "Y1" V 10850 7000 50  0000 C CNN
-F 1 "14.318Mhz" V 11000 7100 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 10850 7100 50  0001 C CNN
-F 3 "~" H 10850 7100 50  0001 C CNN
-	1    10850 7100
-	0    1    1    0   
 $EndComp
 Text Label 13500 4650 2    50   ~ 0
 AOUTR
@@ -1841,13 +1824,9 @@ Wire Wire Line
 Wire Wire Line
 	11100 6800 11400 6800
 Wire Wire Line
-	10850 7000 11100 7000
-Wire Wire Line
 	11200 7200 11200 6900
 Wire Wire Line
 	11200 6900 11400 6900
-Wire Wire Line
-	10850 7200 11200 7200
 NoConn ~ 12600 2350
 NoConn ~ 12600 2450
 Wire Wire Line
@@ -4024,4 +4003,25 @@ Wire Wire Line
 Connection ~ 17500 4950
 Wire Wire Line
 	17500 4950 17650 4950
+Wire Wire Line
+	10850 7200 11200 7200
+Wire Wire Line
+	10850 7200 10700 7200
+Connection ~ 10850 7200
+Wire Wire Line
+	10850 7000 11100 7000
+Wire Wire Line
+	10850 7000 10700 7000
+Connection ~ 10850 7000
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 60E0615D
+P 10850 7100
+F 0 "Y1" V 10850 7000 50  0000 C CNN
+F 1 "14.318Mhz" V 11000 7100 50  0000 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 10850 7100 50  0001 C CNN
+F 3 "~" H 10850 7100 50  0001 C CNN
+	1    10850 7100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
