@@ -3468,8 +3468,6 @@ Wire Wire Line
 	19200 10050 19550 10050
 Wire Wire Line
 	19200 10050 19200 10150
-Text Notes 12700 3150 0    50   ~ 0
-C24 measured out of circuit as 160nF
 $Comp
 L Device:C_Small C28
 U 1 1 61F8B525
