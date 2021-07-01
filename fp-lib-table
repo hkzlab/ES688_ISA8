@@ -3,4 +3,5 @@
   (lib (name Package_QFP)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/Package_QFP.pretty)(options "")(descr ""))
   (lib (name Volume_Pot)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/Volume_Pot.pretty)(options "")(descr ""))
   (lib (name Custom_Connectors)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/Custom_Connectors.pretty)(options "")(descr ""))
+  (lib (name ES688_ISA8)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_libs/footprints/ES688_ISA8.pretty)(options "")(descr ""))
 )
