@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Quad Serial ISA Adapter"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3949,7 +3949,7 @@ L Device:R_Small R25
 U 1 1 60AE15A5
 P 17650 4800
 F 0 "R25" H 17750 4850 50  0000 L CNN
-F 1 "220" H 17750 4750 50  0000 L CNN
+F 1 "DNM" H 17750 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 17650 4800 50  0001 C CNN
 F 3 "~" H 17650 4800 50  0001 C CNN
 	1    17650 4800
@@ -3960,7 +3960,7 @@ L Device:R_Small R24
 U 1 1 60AE27E3
 P 17300 4800
 F 0 "R24" H 17400 4850 50  0000 L CNN
-F 1 "220" H 17400 4750 50  0000 L CNN
+F 1 "DNM" H 17400 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 17300 4800 50  0001 C CNN
 F 3 "~" H 17300 4800 50  0001 C CNN
 	1    17300 4800
@@ -4022,4 +4022,6 @@ F 3 "~" H 14500 5650 50  0001 C CNN
 	1    14500 5650
 	0    -1   -1   0   
 $EndComp
+Text Notes 17150 5500 0    50   ~ 0
+Use a ~100-200k\nlinear potentiometer
 $EndSCHEMATC
