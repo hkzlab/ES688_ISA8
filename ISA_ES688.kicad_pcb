@@ -7152,7 +7152,7 @@
   (gr_text "ES688F + OPL3\nISA8 Sound Card\nby Hkz" (at 217.17 162.306 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "JP1:\n1-2: Sound Blaster v2.11\n2-3: Sound Blaster PRO v3.1" (at 219.202 134.366) (layer F.SilkS)
+  (gr_text "Emulation Mode:\n1-2: Sound Blaster v2.11\n2-3: Sound Blaster PRO v3.1" (at 219.202 134.366) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
   (gr_line (start 302.768 197.612) (end 312.42 197.612) (layer Edge.Cuts) (width 0.05))
