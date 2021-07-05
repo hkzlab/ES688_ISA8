@@ -5516,7 +5516,7 @@
     (fp_text reference J9 (at -6.858 11.176) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "SPKR OUT" (at -6.858 4.318) (layer F.SilkS)
+    (fp_text value "SPKR OUT" (at -6.795 6.072) (layer F.SilkS)
       (effects (font (size 1 0.9) (thickness 0.15) italic))
     )
     (fp_text user cutout (at 0 0.6 90) (layer F.Fab)
