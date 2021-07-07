@@ -4023,5 +4023,5 @@ F 3 "~" H 14500 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 17150 5500 0    50   ~ 0
-Use a ~100-200k\nlinear potentiometer
+Use a ~200k (or higher)\nlinear potentiometer
 $EndSCHEMATC
