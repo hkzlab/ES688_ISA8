@@ -35,11 +35,11 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [?] Stereo (left/right channel) check
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
-* [?] Line out
-* [?] Line in
+* [✅] Line out
+* [✅] Line in
 * [?] AUX In
 * [?] Microphone in
-* [?] MIDI output via Joystick port
+* [✅] MIDI output via Joystick port
 
 The card was tested on:
 
