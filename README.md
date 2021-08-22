@@ -44,6 +44,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 The card was tested on:
 
 * [✅] NEC V20 9.5Mhz / DOS 6.22
+* [✅] SUNTAC 286 12Mhz motherboard / DOS 6.22
 
 ## Configuration
 
