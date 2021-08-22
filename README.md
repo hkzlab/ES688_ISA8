@@ -32,7 +32,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 * [✅] FM Synthesis via OPL3
 * [✅] Digital audio playback
-* ? Stereo (left/right channel) check (Tested with Sound Blaster PRO Test program, digitized sound mode)
+* [?] Stereo (left/right channel) check
 * [✅] Joystick port
 * [✅] Speaker Out (amplified)
 * [?] Line out
@@ -49,7 +49,29 @@ The card was tested on:
 
 This card is configured via jumpers.
 
-**TODO**
+* **JP1**: Selects the **Sound Blaster emulation mode**
+  * 1-2: Sound Blaster (DSP v2.11)
+  * 2-3 Sound Blaster PRO (DSP v3.1)
+  
+The following jumpers must me insalled vertically in the block. **1** means **Jumper Present**, **0** means **Jumper Absent**.
+
+* **J2**: Selects the IRQ:
+  * 00: IRQ2
+  * 10: IRQ5 (default)
+  * 01: IRQ7
+  * 11: IRQ3
+* **J3**: Selects the I/O address:
+  * 00: 220h (default)
+  * 10: 230h
+  * 01: 240h
+  * 11: 250h
+* **J4**: Selects the DMA channel
+  * 00: None
+  * 10: DMA2
+  * 01: DMA1 (default)
+  * 11: DMA3
+  
+  **WARNING**: /DACK2 and DRQ2 lines are disconnected and must be jumpered on the backside of the board if used, by bridging JP3 and JP2.
 
 ## Bill of Materials
 
