@@ -15,6 +15,7 @@ This board provides the following connections:
 * Speaker out (amplified)
 * Line out
 * Line in
+* Aux in (internal header)
 * Microphone in (internal header)
 * Joystick port
 * MIDI on Joystick port
@@ -36,6 +37,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Speaker Out (amplified)
 * [?] Line out
 * [?] Line in
+* [?] AUX In
 * [?] Microphone in
 * [?] MIDI output via Joystick port
 
